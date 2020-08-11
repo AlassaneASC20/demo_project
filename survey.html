@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css" href="main.js">
     <title>ScholarStash</title>
-</head>
-<body>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase.js"></script>
 
 <script>
   // Your web app's Firebase configuration
@@ -27,8 +25,16 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-  
 </script>
+
+
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+  
+
     <div class="headImages">
         <img id="logo" src="images/logo.png">
         <img id="name" src="images/name2.jpg">
@@ -50,23 +56,26 @@
             <p1>Contact Us</p1>
         </a> 
     </div>
-    <a id= "survey" href="survey.html">
-        <div class="forYou">Tell us about yourself, so we can get the best results for YOU</div> </a>
-    <div style= "clear:both">
-    <section>
-        <br>
-        <nav>
-        <h2 id="all">All</h2>
-        <p class="alltext">This website is about finding different types of scholarships.</p>
-    <section>
-        <h2 class="AcademicScholarships" style="float:left">Academic Scholarships</h2>
-        <p class ="academicscholarshipstext">Text about academic scholarships.</p>
-    </section>
-    <section>
-        <h2 class = "CommunityService" style="float:right">Community Service</h2>
-        <br>
-        <p class = "communityservicetext">Text about community service.</p>
-    </section>
+    
+    <div class="allQuestions">  
+        <div class="question">
+            <h2 class="qHeader">What is your GPA</h2>
+            <div class="qOptions">
+                <div class="option">
+                    <p id="GPA1">above 3.7</p>
+                </div>
+                <div class="option">
+                    <p id="GPA2">3.0-3.7</p>
+                </div>
+                <div class="option">
+                    <p id="GPA3">2.0-3.0</p>
+                </div>
+                <div class="option">
+                    <p id="GPA4">below 2.0</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>

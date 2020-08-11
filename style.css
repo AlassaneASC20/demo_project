@@ -1,4 +1,123 @@
-.headImage{
-    height: 100px;
-    widows: 100px;
+/* General */
+body{
+    background-color:;
+}
+#logo{
+width: 200px;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.categories{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: x-large;
+    padding: 20px;
+  
+}
+.categoryText{
+    display: block;
+    text-decoration: none;
+    background-color: lightgreen;
+    color: gray;
+    margin-top: 30px;
+    padding: 10px;
+
+}
+.categoryText:hover{
+    color: black;
+    background-color: palegreen;
+}
+
+/* Home */
+
+/* Survey Link */
+
+.forYou{
+    display: block;
+    text-align: center;
+    margin: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: palegreen;
+    height:auto;
+}
+
+#survey{
+      text-decoration:none;
+    font-size: 30px;
+    color: gray;
+}
+
+#survey:hover{
+    color: black;
+}
+.forYou:hover{
+    background-color: lightgreen;
+}
+
+/* Scholarship stuff */
+#Scholarships{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: x-large;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+.all{
+    display:block;
+    font-family: Helvetica,bold;
+    text-align: center;
+}
+.alltext{
+    font-family: Helvetica;
+    text-align: center;
+    border:solid;
+}
+.academicscholarshipstext{
+    float:left;
+    border:solid;
+    width:600px;
+}
+
+}
+.communityservicetext{
+    float:right;
+    border:solid;
+    width:600px;
+}
+.all{
+    text-align:center;
+}
+
+/* Survey page */
+
+.allQuestions{
+    background-color: lightgreen;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+.question{
+    border:solid;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+.option{
+    display: inline-block;
+    color: palegreen;
+    background-color:darkgray;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.option:hover{
+    color: palegreen;
+    background-color:black;
 }
