@@ -5,28 +5,63 @@
     <title>ScholarStash</title>
 </head>
 <body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBrv0nxbeRLz1zp-MLoPyfUDDDh1xBvDyg",
+    authDomain: "studentstash-fe069.firebaseapp.com",
+    databaseURL: "https://studentstash-fe069.firebaseio.com",
+    projectId: "studentstash-fe069",
+    storageBucket: "studentstash-fe069.appspot.com",
+    messagingSenderId: "532071081145",
+    appId: "1:532071081145:web:aadf0cc89e47badcd6a768",
+    measurementId: "G-00Z1CV4ZHS"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  
 </script>
-<div class="headImages">
-    <img id="logo" src="images/logo.png">
-    <img id="name" src="images/name2.jpg">
-</div>
-<div class="categories">
-    <a id="Scholarships">
-        <p1>Scholarships</p1>
-    </a>
-    <a href = "index.html">
-        <p1>Home</p1>
-    </a>
-    <a href="contact.html">
-        <p1>Contact Us</p1>
-    </a>
-    <a href="about.html">
-        <p1>About Us</p1>
-    </a>
-    <a href="contact.html">
-        <p1>Contact Us</p1>
-    </a>
-</div>
-<section>
+    <div class="headImages">
+        <img id="logo" src="images/logo.png">
+        <img id="name" src="images/name2.jpg">
+    </div>
+    <div class="categories">
+        <a class="categoryText" href="scholarships.html">
+            <p1>Scholarships</p1>
+        </a>  
+       <a class="categoryText" href = "index.html">
+            <p1>Home</p1> 
+        </a>
+        <a class="categoryText" href="contact.html">
+            <p1>Contact Us</p1> 
+        </a>
+        <a class="categoryText" href="about.html">
+            <p1>About Us</p1>
+        </a>  
+    
+        </a> 
+    </div>
+    <section>
+        <div class = "wrapper5">
+        <h2 class = "aboutus" id="container">About Us</h2>
+        <p id="abouttext">
+            This website known as ScholarStash is a project that's suppose to help people find scholarships that best suit their needs. The people that created this project are:
+            <ul id="namelist">
+                <li> Alassane Dia  (📧:aloodia23@gmail.com)</li>
+                <li> Will Otondi  (📧: willotondi@gmail.com)</li>
+                <li> Joseph Nartey (📧: jnartey2022@columbiasecondary.org)</li>
+                <li> Souleymane Bah (📧: )</li>
+            </ul>
+        </p>
+        <p id="abouttext">If we had more time to work on this project, it would probably look much nicer and cooler than what we currently have. But, at least it works.</p>
+    </div>
 </body>
 </html>

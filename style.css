@@ -1,7 +1,5 @@
 /* General */
-body{
-    background-color:;
-}
+
 #logo{
 width: 200px;
 height: 200px;
@@ -14,21 +12,33 @@ margin-right: auto;
     justify-content:space-evenly;
     font-size: x-large;
     padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   
 }
 .categoryText{
-    display: block;
-    text-decoration: none;
+    font-size: 24px;
+    height: 20px;
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 15px;
     background-color: lightgreen;
-    color: gray;
-    margin-top: 30px;
-    padding: 10px;
+    color: grey;
+    border-color: lightsalmon;
+    border-radius: 20px;
+    transition: 0.5s;
+    text-decoration: none;
+    
 
 }
 .categoryText:hover{
     color: black;
     background-color: palegreen;
+    box-shadow: 6px 6px 0px #f2994a;
+  transition: 0.4s;
+    
 }
+
 
 /* Home */
 
@@ -37,7 +47,7 @@ margin-right: auto;
 .forYou{
     display: block;
     text-align: center;
-    margin: 25px;
+    margin: 100px;
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: palegreen;
@@ -68,34 +78,109 @@ margin-right: auto;
 }
 .all{
     display:block;
-    font-family: Helvetica,bold;
+    font-family: "Poppins", sans-serif;
     text-align: center;
 }
 .alltext{
-    font-family: Helvetica;
+    font-family: "Poppins", sans-serif;
     text-align: center;
-    border:solid;
+    display: block;
+    background-color: rgb(253, 198, 176);
+    margin: 1px;
 }
 .academicscholarshipstext{
     float:left;
     border:solid;
     width:600px;
+    word-wrap:break-word;
 }
 
-}
+
+
 .communityservicetext{
     float:right;
     border:solid;
     width:600px;
+    word-wrap:break-word;
 }
-.all{
+
+
+
+#allBox{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: 30px;
+    border-radius:25px;
+    padding: 20px;
+    background-color: lightgreen;
+    color: gray;
     text-align:center;
+    text-decoration: none;
+    font-family: Helvetica,bold;
+} 
+#allBox:hover{
+    background-color: palegreen;
+    color: black;
+}
+
+.container{
+    text-align:center;
+}
+.scholarshipstext{
+    font-size:20px;
+    padding-left:250px;
+}
+.wrapper1{
+    border-radius:25px;
+    border:solid;
+    background-color: lightgreen;
+    font-family:Helvetica;
+}
+.wrapper2{
+    border-radius:25px;
+    border:solid;
+    background-color: lightgreen;
+    font-family:Helvetica;
+}
+.wrapper3{
+    border-radius:25px;
+    border:solid;
+    background-color: lightgreen;
+    font-family:Helvetica;
+
+}
+.wrapper4{
+    border-radius:25px;
+    border:solid;
+    background-color: lightgreen;
+    font-family:Helvetica;
+}
+.wrapper5{
+    border-radius:25px;
+    border:solid;
+    background-color: lightgreen;
+    font-family:Helvetica;
+}
+
+#abouttext{
+    text-align:center;
+    font-family:Helvetica;
+}
+.aboutus{
+    text-align: center;
+}
+p{
+    font-family: Helvetica, sans-serif;
+}
+ul{
+    padding-left:100px;
 }
 
 /* Survey page */
 
-.allQuestions{
-    background-color: lightgreen;
+.allQuestions{  
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -104,9 +189,14 @@ margin-right: auto;
     margin-bottom: 40px;
 }
 .question{
+    background-color: lightgreen;
     border:solid;
     padding-bottom: 40px;
     margin-bottom: 30px;
+}
+#userName{
+    height: 40px;
+    font-size: 20px;
 }
 .option{
     display: inline-block;
@@ -116,8 +206,66 @@ margin-right: auto;
     padding: 20px;
     font-size: x-large;
 }
-
-.option:hover{
+.option:active{
     color: palegreen;
     background-color:black;
+    cursor: pointer;
+}
+.optionClicked{
+    color: palegreen;
+    background-color:black;
+    text-align:center;
+}
+#submitButton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    font-size: 30px;
+    border-radius:25px;
+    padding: 20px;
+    background-color: lightgreen;
+    color: gray;
+    text-align:center;
+    text-decoration: none;
+    font-family: Helvetica,bold;
+} 
+#submitButton:hover{
+    background-color: palegreen;
+    color: black;
+}
+.academicscholarshipstext{
+    width:50px;
+}
+ul{
+    font-family: Helvetica, normal;
+}
+
+
+/* contact */
+.Contact{
+    background-color: lightgreen;
+    color: black;
+    width: 30%;
+    border-radius: 25px;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: x-large;
+}
+.Contactcontainer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    background-color: lightgreen;
+    width: 50%;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: larger
+} */
+
+h2{
+    text-align: center;
 }

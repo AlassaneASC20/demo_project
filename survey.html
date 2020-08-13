@@ -40,14 +40,11 @@
         <img id="name" src="images/name2.jpg">
     </div>
     <div class="categories">
-        <a class="categoryText" href="#all">
+        <a class="categoryText" href="scholarships.html">
             <p1>Scholarships</p1>
         </a>  
        <a class="categoryText" href = "index.html">
             <p1>Home</p1> 
-        </a>
-        <a class="categoryText" href="contact.html">
-            <p1>Contact Us</p1> 
         </a>
         <a class="categoryText" href="about.html">
             <p1>About Us</p1>
@@ -59,23 +56,36 @@
     
     <div class="allQuestions">  
         <div class="question">
+                <h2 class="qHeader">What is your name:</h2>
+                <label for="firstName">First name:</label>
+                <input id="firstName" type="text">
+                <label for="lastName">last name:</label> 
+                <input id="lastName" type="text">
+        </div>
+        <div class="question">
             <h2 class="qHeader">What is your GPA</h2>
             <div class="qOptions">
                 <div class="option">
+                    <div class="optionClicked"></div>
                     <p id="GPA1">above 3.7</p>
                 </div>
                 <div class="option">
+                    <div class="optionClicked"></div>
                     <p id="GPA2">3.0-3.7</p>
                 </div>
                 <div class="option">
+                    <div class="optionClicked"></div>
                     <p id="GPA3">2.0-3.0</p>
                 </div>
                 <div class="option">
+                    <div class="optionClicked"></div>
                     <p id="GPA4">below 2.0</p>
                 </div>
             </div>
         </div>
-
+        
+        <a id="submitButton" href ="scholarships.html"> Submit </a>
     </div>
+    
 </body>
 </html>
